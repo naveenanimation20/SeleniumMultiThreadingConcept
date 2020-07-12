@@ -1,7 +1,11 @@
 package com.pages;
 
 import org.openqa.selenium.By;
-
+/**
+ * 
+ * @author NaveenKhunteta
+ *
+ */
 public class GooglePage extends BasePage{
 	
 	//page actions:

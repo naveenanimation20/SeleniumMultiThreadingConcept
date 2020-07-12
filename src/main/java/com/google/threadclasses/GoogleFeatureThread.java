@@ -1,7 +1,11 @@
 package com.google.threadclasses;
 
 import com.pages.GooglePage;
-
+/**
+ * 
+ * @author NaveenKhunteta
+ *
+ */
 public class GoogleFeatureThread extends Thread {
 
 	public String browserName;
