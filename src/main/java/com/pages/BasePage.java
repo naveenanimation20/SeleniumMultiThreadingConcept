@@ -19,12 +19,10 @@ public class BasePage {
 	public WebDriver setUp(String browserName) {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/Users/NaveenKhunteta/Downloads/chromedriver");
 			driver = new ChromeDriver();
 		}
 
 		else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "/Users/NaveenKhunteta/Downloads/geckodriver");
 			driver = new FirefoxDriver();
 		}
 
